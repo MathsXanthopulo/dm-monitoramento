@@ -55,11 +55,11 @@ export const SERVICOS: Servico[] = [
     alt: 'Portão de correr metálico com interfone ao lado',
   },
   {
-    id: 'antenas',
-    nome: 'Antenas',
-    desc: 'Instalação de antenas para a casa, o condomínio e a empresa.',
-    img: 'antena.webp',
-    alt: 'Antena de metal no alto de um telhado, em preto e branco',
+    id: 'totem',
+    nome: 'Totem de monitoramento',
+    desc: 'Poste com câmeras na calçada ou na entrada, para ficar de olho na frente do imóvel e na rua.',
+    img: 'totem.webp',
+    alt: 'Poste preto com duas câmeras de segurança contra o céu azul',
   },
   {
     id: 'acesso',
@@ -126,7 +126,7 @@ export const FAQ = [
   },
   {
     q: 'Quais serviços a DM Monitoramento oferece?',
-    a: 'Câmeras de segurança (CFTV), cerca elétrica, portões automáticos, antenas, controle de acesso e monitoramento 24h, para casas, condomínios e pequenas empresas.',
+    a: 'Câmeras de segurança (CFTV), cerca elétrica, portões automáticos, totem de monitoramento, controle de acesso e monitoramento 24h, para casas, condomínios e pequenas empresas.',
   },
   {
     q: 'Como peço um orçamento?',

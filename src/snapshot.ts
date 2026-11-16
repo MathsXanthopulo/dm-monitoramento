@@ -104,7 +104,7 @@ export function renderJsonLd(): string {
       name: PRODUTO,
       url: SITE_URL,
       image: `${SITE_URL}og-v1.jpg`,
-      description: `Segurança eletrônica em ${LOCAL.sede ?? ''}: câmeras de segurança (CFTV), cerca elétrica, portões automáticos, antenas, controle de acesso e monitoramento 24h para casas, condomínios e pequenas empresas.`,
+      description: `Segurança eletrônica em ${LOCAL.sede ?? ''}: câmeras de segurança (CFTV), cerca elétrica, portões automáticos, totem de monitoramento, controle de acesso e monitoramento 24h para casas, condomínios e pequenas empresas.`,
       telephone: '+55 11 93012-7688',
       sameAs: [INSTAGRAM],
       address: { '@type': 'PostalAddress', addressLocality: 'Mogi das Cruzes', addressRegion: 'SP', addressCountry: 'BR' },
