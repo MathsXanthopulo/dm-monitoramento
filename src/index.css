@@ -189,6 +189,11 @@ h3 { font-weight: 700; letter-spacing: -0.02em; line-height: 1.15; }
 }
 .pblur { position: absolute; left: 0; right: 0; pointer-events: none; user-select: none; }
 .hero-in { position: relative; padding-top: calc(var(--nav) + 3rem); padding-bottom: clamp(2.25rem, 7vh, 4.5rem); }
+@media (min-width: 768px) {
+  /* no desktop o texto fica no meio da tela, na altura da casa acesa (no celular fica embaixo) */
+  .hero { align-items: center; }
+  .hero-in { padding-top: calc(var(--nav) + 1.5rem); padding-bottom: 4.5rem; }
+}
 .hero h1 { font-size: clamp(2.75rem, 7.4vw, 6.2rem); line-height: 0.93; }
 .hero h1 .l1, .hero h1 .l2 { display: block; }
 .hero h1 .l1 { color: var(--aluminio); }
